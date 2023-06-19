@@ -56,7 +56,7 @@
             this.UseerSelection.TabIndex = 1;
             this.UseerSelection.Text = "Выбор пользователя";
             this.UseerSelection.UseVisualStyleBackColor = true;
-            this.UseerSelection.Click += new System.EventHandler(this.button2_Click);
+            this.UseerSelection.Click += new System.EventHandler(this.userSwitchButton);
             // 
             // UserManual
             // 
