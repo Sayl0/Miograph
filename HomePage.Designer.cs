@@ -44,7 +44,7 @@
             this.QuickStart.TabIndex = 0;
             this.QuickStart.Text = "Быстрый старт";
             this.QuickStart.UseVisualStyleBackColor = true;
-            this.QuickStart.Click += new System.EventHandler(this.button1_Click);
+            this.QuickStart.Click += new System.EventHandler(this.quickStartButton);
             // 
             // UseerSelection
             // 

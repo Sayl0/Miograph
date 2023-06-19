@@ -22,7 +22,7 @@ namespace Miograph
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void quickStartButton(object sender, EventArgs e)
         {
             var myForm = new UserManual();
             myForm.Show();
