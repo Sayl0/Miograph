@@ -225,6 +225,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1202, 958);
+            this.BackColor = System.Drawing.Color.FloralWhite;
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.buttonAddUser);
             this.Controls.Add(this.buttonSelectUser);

@@ -80,7 +80,7 @@ namespace Miograph
             this.textBoxSecondName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxSecondName.Name = "textBoxSecondName";
             this.textBoxSecondName.Size = new System.Drawing.Size(233, 30);
-            this.textBoxSecondName.TabIndex = 11;
+            this.textBoxSecondName.TabIndex = 1;
             this.textBoxSecondName.Tag = "";
             this.textBoxSecondName.TextChanged += new System.EventHandler(this.textBoxSecondName_TextChanged);
             this.textBoxSecondName.Enter += new System.EventHandler(this.textBoxSecondName_Enter);
@@ -96,7 +96,7 @@ namespace Miograph
             this.textBoxFirstName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFirstName.Name = "textBoxFirstName";
             this.textBoxFirstName.Size = new System.Drawing.Size(233, 30);
-            this.textBoxFirstName.TabIndex = 12;
+            this.textBoxFirstName.TabIndex = 2;
             this.textBoxFirstName.Tag = "";
             this.textBoxFirstName.TextChanged += new System.EventHandler(this.textBoxFirstName_TextChanged);
             this.textBoxFirstName.Enter += new System.EventHandler(this.textBoxFirstName_Enter);
@@ -112,7 +112,7 @@ namespace Miograph
             this.textBoxMiddleName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMiddleName.Name = "textBoxMiddleName";
             this.textBoxMiddleName.Size = new System.Drawing.Size(233, 30);
-            this.textBoxMiddleName.TabIndex = 13;
+            this.textBoxMiddleName.TabIndex = 3;
             this.textBoxMiddleName.Tag = "";
             this.textBoxMiddleName.TextChanged += new System.EventHandler(this.textBoxMiddleName_TextChanged);
             this.textBoxMiddleName.Enter += new System.EventHandler(this.textBoxMiddleName_Enter);
@@ -128,7 +128,7 @@ namespace Miograph
             this.textBoxUserWeight.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxUserWeight.Name = "textBoxUserWeight";
             this.textBoxUserWeight.Size = new System.Drawing.Size(233, 30);
-            this.textBoxUserWeight.TabIndex = 15;
+            this.textBoxUserWeight.TabIndex = 8;
             this.textBoxUserWeight.Tag = "";
             this.textBoxUserWeight.Enter += new System.EventHandler(this.textBoxUserWeight_Enter);
             this.textBoxUserWeight.Leave += new System.EventHandler(this.textBoxUserWeight_Leave);
@@ -143,7 +143,7 @@ namespace Miograph
             this.textBoxUserHeight.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxUserHeight.Name = "textBoxUserHeight";
             this.textBoxUserHeight.Size = new System.Drawing.Size(233, 30);
-            this.textBoxUserHeight.TabIndex = 14;
+            this.textBoxUserHeight.TabIndex = 7;
             this.textBoxUserHeight.Tag = "";
             this.textBoxUserHeight.Enter += new System.EventHandler(this.textBoxUserHeight_Enter);
             this.textBoxUserHeight.Leave += new System.EventHandler(this.textBoxUserHeight_Leave);
@@ -157,7 +157,7 @@ namespace Miograph
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(198, 30);
-            this.dateTimePicker1.TabIndex = 16;
+            this.dateTimePicker1.TabIndex = 6;
             // 
             // groupBox1
             // 
@@ -182,7 +182,7 @@ namespace Miograph
             this.radioButtonWoman.Location = new System.Drawing.Point(77, 24);
             this.radioButtonWoman.Name = "radioButtonWoman";
             this.radioButtonWoman.Size = new System.Drawing.Size(45, 27);
-            this.radioButtonWoman.TabIndex = 21;
+            this.radioButtonWoman.TabIndex = 5;
             this.radioButtonWoman.TabStop = true;
             this.radioButtonWoman.Text = "Ж";
             this.radioButtonWoman.UseVisualStyleBackColor = true;
@@ -195,7 +195,7 @@ namespace Miograph
             this.radioButtonMen.Location = new System.Drawing.Point(16, 24);
             this.radioButtonMen.Name = "radioButtonMen";
             this.radioButtonMen.Size = new System.Drawing.Size(45, 27);
-            this.radioButtonMen.TabIndex = 20;
+            this.radioButtonMen.TabIndex = 4;
             this.radioButtonMen.TabStop = true;
             this.radioButtonMen.Text = "М";
             this.radioButtonMen.UseVisualStyleBackColor = true;
@@ -243,7 +243,7 @@ namespace Miograph
             this.buttonNext.Location = new System.Drawing.Point(282, 582);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(227, 55);
-            this.buttonNext.TabIndex = 23;
+            this.buttonNext.TabIndex = 9;
             this.buttonNext.Text = "Далее";
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
@@ -265,6 +265,7 @@ namespace Miograph
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(534, 701);
+            this.BackColor = System.Drawing.Color.FloralWhite;
             this.Controls.Add(this.labelMedicalHistory);
             this.Controls.Add(this.buttonNext);
             this.Controls.Add(this.labelDateBirth);
