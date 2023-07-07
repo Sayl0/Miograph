@@ -110,6 +110,12 @@
     <Compile Include="formQuickStart\PassiveMode\PassiveModeSettings.Designer.cs">
       <DependentUpon>PassiveModeSettings.cs</DependentUpon>
     </Compile>
+    <Compile Include="formUserSelection\Operator\OperatorFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\Operator\OperatorFrom.Designer.cs">
+      <DependentUpon>OperatorFrom.cs</DependentUpon>
+    </Compile>
     <Compile Include="formUserSelection\PersonalProfile\AddUser\AddUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,36 @@
     </Compile>
     <Compile Include="formUserSelection\PersonalProfile\AddUser\PersonalData.Designer.cs">
       <DependentUpon>PersonalData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\CourseParameters\CourseParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\CourseParameters\CourseParameters.Designer.cs">
+      <DependentUpon>CourseParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\Excerpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\Excerpt.Designer.cs">
+      <DependentUpon>Excerpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\InitialParameters\InitialParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\InitialParameters\InitialParameters.Designer.cs">
+      <DependentUpon>InitialParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\Session\Session.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\Session\Session.Designer.cs">
+      <DependentUpon>Session.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\TargetParameters\TargetParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\TargetParameters\TargetParameters.Designer.cs">
+      <DependentUpon>TargetParameters.cs</DependentUpon>
     </Compile>
     <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\AnkleMuscleStrength.cs">
       <SubType>Form</SubType>
@@ -235,6 +271,9 @@
     <EmbeddedResource Include="formQuickStart\PassiveMode\PassiveModeSettings.resx">
       <DependentUpon>PassiveModeSettings.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\Operator\OperatorFrom.resx">
+      <DependentUpon>OperatorFrom.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formUserSelection\PersonalProfile\AddUser\AddUser.resx">
       <DependentUpon>AddUser.cs</DependentUpon>
     </EmbeddedResource>
@@ -243,6 +282,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formUserSelection\PersonalProfile\AddUser\PersonalData.resx">
       <DependentUpon>PersonalData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\CourseParameters\CourseParameters.resx">
+      <DependentUpon>CourseParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\Excerpt.resx">
+      <DependentUpon>Excerpt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\InitialParameters\InitialParameters.resx">
+      <DependentUpon>InitialParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\Session\Session.resx">
+      <DependentUpon>Session.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\TargetParameters\TargetParameters.resx">
+      <DependentUpon>TargetParameters.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\AnkleMuscleStrength.resx">
       <DependentUpon>AnkleMuscleStrength.cs</DependentUpon>
